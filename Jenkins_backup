@@ -45,18 +45,3 @@ pipeline {
     }
 }
 
-# 1. Download Jenkins backup from S3 bucket
-aws s3 cp s3://otms-opstree-practice/jenkinsBackup.zip .
-
-# 2. Stop Jenkins service before restoring
-sudo systemctl stop jenkins
-
-# 3. Unzip the backup directly to the root (restores /var/lib/jenkins)
-sudo unzip -o jenkinsBackup.zip -d /
-
-# 4. Set correct ownership for Jenkins directory
-sudo chown -R jenkins:jenkins /var/lib/jenkins
-
-# 5. Start Jenkins service again
-sudo systemctl start jenkins
-
