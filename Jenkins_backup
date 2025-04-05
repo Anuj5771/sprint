@@ -1,8 +1,8 @@
 pipeline {
-    agent { label 'Built-in' }
+    agent any 
 
     stages {
-        stage('Jenkins Backup') {
+        stage('Jenkins backup') {
             steps {
                 sh '''
                     cd /var/lib/jenkins
