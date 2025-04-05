@@ -1,0 +1,42 @@
+pipeline {
+    agent { label 'Built-in' }
+
+    stages {
+        stage('Jenkins Backup') {
+            steps {
+                sh '''
+                    cd /var/lib/jenkins
+                    zip -r jenkinsBackup.zip .
+                '''
+            }
+        }
+
+        stage('Upload to S3') {
+            steps {
+                script {
+                    s3Upload consoleLogLevel: 'INFO',
+                        dontSetBuildResultOnFailure: false,
+                        dontWaitForConcurrentBuildCompletion: false,
+                        entries: [[
+                            bucket: 'otms-opstree-practice',
+                            excludedFile: '',
+                            flatten: false,
+                            gzipFiles: false,
+                            keepForever: false,
+                            managedArtifacts: false,
+                            noUploadOnFailure: false,
+                            selectedRegion: 'eu-north-1',
+                            showDirectlyInBrowser: false,
+                            sourceFile: 'jenkinsBackup.zip',
+                            storageClass: 'STANDARD',
+                            uploadFromSlave: false,
+                            useServerSideEncryption: false
+                        ]],
+                        pluginFailureResultConstraint: 'FAILURE',
+                        profileName: 's3backup',
+                        userMetadata: []
+                }
+            }
+        }
+    }
+}
