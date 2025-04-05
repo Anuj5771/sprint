@@ -9,6 +9,7 @@ pipeline {
         stage('Jenkins backup') {
             steps {
                 sh '''
+                    cd /var/lib/jenkins
                     zip -r jenkinsBackup.zip /var/lib/jenkins
                 '''
             }
