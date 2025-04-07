@@ -112,6 +112,7 @@ Application Monitoring is the process of continuously observing and checking the
 
 ##  Architecture Diagram
 
+ ![image](https://github.com/user-attachments/assets/54059f07-4b44-4f80-b46a-d8e373478e98)
 
 
 ## Advantages of Application Monitoring
