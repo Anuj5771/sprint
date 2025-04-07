@@ -1,10 +1,12 @@
 #  DB Monitoring: Alerting Rules & Process
 
+
 | **Author**    | **Created On** | **Version** | **Last Updated By** | **Internal Reviewer** | **Reviewer L0** | **Reviewer L1** | **Reviewer L2**     |
 |---------------|----------------|-------------|----------------------|------------------------|------------------|------------------|----------------------|
 | Anuj Yadav    | 12-02-2025     | v1.1        | Anuj Yadav           | Siddharth Pawar        | Tarun Singh      | Abhishek         | Abhishek Dubey       |
 
-![image](https://github.com/user-attachments/assets/d709b43f-20ca-43cd-b5fd-019212271833)
+![image](https://github.com/user-attachments/assets/5166ecef-2479-4c66-8d7e-d39a52625184)
+
 
 ##  Table of Contents
 
