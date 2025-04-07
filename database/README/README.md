@@ -59,6 +59,7 @@ A standard setup includes:
 
 ##  Architecture Flow
 
+![image](https://github.com/user-attachments/assets/f5214688-fef7-47f1-8e79-94037582be0f)
 
 ##  Key Metrics to Monitor
 
