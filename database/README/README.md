@@ -117,7 +117,7 @@ A standard setup includes:
 ##  Alert Rules & Thresholds
 
 | Metric            | Condition         | Alert Message                        |
-|------------------|-------------------|--------------------------------------|
+|------------------|-------------------|-------------------------------------- |
 | CPU Usage         | > 85% (5 mins)    | High CPU usage on DB Server          |
 | Memory Usage      | > 90%             | Memory almost full                   |
 | Disk Usage        | > 80%             | Disk space running low               |
@@ -154,10 +154,22 @@ Database monitoring is essential to keep systems healthy, avoid downtime, and op
 
 ---
 
-##  References
 
-- [Prometheus Documentation](https://prometheus.io/docs/)
-- [Grafana Documentation](https://grafana.com/docs/)
-- [Alertmanager Docs](https://prometheus.io/docs/alerting/latest/alertmanager/)
-- [MySQL Exporter](https://github.com/prometheus/mysqld_exporter)
-- [PostgreSQL Exporter](https://github.com/prometheus-community/postgres_exporter)
+#  References
+
+| Component             | Description                                 | Link                                                                 |
+|-----------------------|---------------------------------------------|----------------------------------------------------------------------|
+| **Prometheus**        | Metrics collection & storage                 | [Prometheus Documentation](https://prometheus.io/docs/)              |
+| **Grafana**           | Visualization & dashboards                   | [Grafana Documentation](https://grafana.com/docs/)                   |
+| **Alertmanager**      | Alert routing & notifications                | [Alertmanager Docs](https://prometheus.io/docs/alerting/latest/alertmanager/) |
+| **MySQL Exporter**    | Exporter for MySQL metrics                   | [MySQL Exporter](https://github.com/prometheus/mysqld_exporter)      |
+| **PostgreSQL Exporter** | Exporter for PostgreSQL metrics           | [PostgreSQL Exporter](https://github.com/prometheus-community/postgres_exporter) |
+
+
+
+##  Contact
+
+| Name       | Email Address                  | GitHub                            | URL                             |
+|------------|--------------------------------|-----------------------------------|----------------------------------|
+| Anuj Yadav | anuj.yadav@mygurukulam.co      | [anuj169](https://github.com/anuj169) | https://github.com/anuj169 |
+
