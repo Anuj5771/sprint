@@ -73,7 +73,6 @@ The following database and system metrics are actively monitored:
 
 Alerts are triggered when thresholds are breached for a defined duration. Below are the **3 critical thresholds** currently configured:
 
-##  Alerting Thresholds
 
 | Metric               | Threshold                               | Severity | Action                                                                 |
 |----------------------|------------------------------------------|----------|------------------------------------------------------------------------|
