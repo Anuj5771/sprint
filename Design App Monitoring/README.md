@@ -51,7 +51,6 @@ Application Monitoring is the process of continuously observing and checking the
 
 ---
 
-##  Flow of Dashboard Designing
 
 ### Flow of Dashboard Designing
 
@@ -112,7 +111,7 @@ Application Monitoring is the process of continuously observing and checking the
 
 ##  Architecture Diagram
 
- ![image](https://github.com/user-attachments/assets/54059f07-4b44-4f80-b46a-d8e373478e98)
+![image](https://github.com/user-attachments/assets/03aa0a8d-b6d9-4293-8f89-7263266da5fe)
 
 
 ## Advantages of Application Monitoring
